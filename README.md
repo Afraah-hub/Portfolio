@@ -11,7 +11,7 @@ Currently leading a project on a **Solar-Powered Mobile Charger** integrating a 
 - 🎓 I'm currently pursuing my engineering studies.
 - 💡 Interested in: Artificial Intelligence, Embedded Systems, and Sustainable Tech.
 - 💻 I love solving problems through code and building smart, efficient solutions.
-- 🌱 Currently learning **Machine Learning** and **Embedded C**.
+- 🌱 Currently learning **Machine Learning**.
 - 📫 Reach me at: afraah1305@gmail.com
 
 ---
