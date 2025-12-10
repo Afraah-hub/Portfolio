@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Afraah | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Navigation -->
+<nav id="navbar">
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#projects">Projects</a>
+    <a href="#resume">Resume</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<!-- Landing Section -->
+<section id="home" class="section home">
+    <h1>Hi, I'm <span class="highlight shine">Afraah</span></h1>
+    <p>I build <span id="typed-text" class="shine"></span></p>
+</section>
+
+<!-- About Section -->
+<section id="about" class="section about">
+    <h2 class="shine">About Me</h2>
+    <p>I am <span class="highlight shine">Afraah</span>, a student passionate about AI, web development, and innovative technology. I enjoy building projects that solve real-world problems and leveraging AI to make intelligent applications.</p>
+    <ul class="about-list">
+        <li>Interactive web apps using HTML, CSS, JS</li>
+        <li>AI-powered solutions with OpenAI API</li>
+        <li>Responsive and modern UI designs</li>
+    </ul>
+</section>
+
+<!-- Projects Section -->
+<section id="projects" class="section projects">
+    <h2 class="shine">Projects</h2>
+    <div class="project-filters">
+        <button class="filter-btn active" data-category="all">All</button>
+        <button class="filter-btn" data-category="web">Web</button>
+        <button class="filter-btn" data-category="ai">AI</button>
+        <button class="filter-btn" data-category="hardware">Hardware</button>
+    </div>
+    <div class="project-list">
+        <div class="project shine" data-category="web">
+            <h3>AI Portfolio</h3>
+            <p>AI-driven portfolio showcasing interactive features.</p>
+        </div>
+        <div class="project shine" data-category="ai">
+            <h3>Fraud Detection</h3>
+            <p>Machine learning project detecting digital payment fraud.</p>
+        </div>
+        <div class="project shine" data-category="hardware">
+            <h3>Solar Charger</h3>
+            <p>Solar-powered mobile charger with kinetic energy.</p>
+        </div>
+    </div>
+</section>
+
+<!-- Resume Section -->
+<section id="resume" class="section resume">
+    <h2 class="shine">Resume</h2>
+    <p>Download my resume:</p>
+    <a href="resume.pdf" target="_blank" class="btn shine">Download PDF</a>
+</section>
+
+<!-- Contact Section -->
+<section id="contact" class="section contact">
+    <h2 class="shine">Contact Me</h2>
+    <form id="contactForm">
+        <div class="form-group">
+            <input type="text" id="name" required>
+            <label for="name">Your Name</label>
+        </div>
+        <div class="form-group">
+            <input type="email" id="email" required>
+            <label for="email">Your Email</label>
+        </div>
+        <div class="form-group">
+            <textarea id="message" required></textarea>
+            <label for="message">Your Message</label>
+        </div>
+        <button type="submit" class="btn shine">Send</button>
+    </form>
+    <p id="formMessage"></p>
+</section>
+
+<!-- Chatbot -->
+<div id="chatbot">
+    <div id="chatHeader" class="shine">Chatbot</div>
+    <div id="chatMessages"></div>
+    <input type="text" id="chatInput" placeholder="Type a message...">
+    <button id="chatSend" class="shine">Send</button>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
